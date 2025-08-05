@@ -1,0 +1,211 @@
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  background: url('https://img.freepik.com/premium-photo/group-motorcycle-riders-riding-together-sunset_997657-915.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  display: grid;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+section.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 4rem 2rem;
+}
+
+.content h2 {
+  color: #ff5722;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p, .content ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.content ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.cta {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: #ff5722;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta a:hover, .cta a:focus {
+  background-color: #e64a19;
+  outline: 2px solid #ff5722;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #aaa;
+  font-size: 1rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer nav {
+  margin-bottom: 1rem;
+}
+
+footer form.search {
+  margin-top: 1rem;
+}
+
+footer form.search input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+footer form.search input[type="text"]:focus {
+  outline: 2px solid #ff5722;
+}
+
+footer form.search input[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer form.search input[type="submit"]:hover, footer form.search input[type="submit"]:focus {
+  background-color: #e64a19;
+  outline: 2px solid #ff5722;
+}
+
+nav a {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: #aaa;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #e64a19;
+  color: white;
+  outline: 2px solid #ff5722;
+}
+
+nav a:active {
+  background-color: #e64a19;
+}
+
+@media (min-width: 600px) {
+  nav a {
+    border: none;
+    display: inline-block;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 700px) {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2rem 4rem;
+  }
+
+  footer nav ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  footer form.search {
+    text-align: right;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
